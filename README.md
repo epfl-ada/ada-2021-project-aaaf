@@ -58,13 +58,14 @@ We should notice the data we have is very large, that is why we are going to use
 3. Megre this files with wikidata:
     
     `python3 scripts/wikidata_merge.py --year={YEAR}'`
-4. Move processed data to data folder (default 'data'):
+
+4. Merge all json files for all years from 2008 to 2020, received 'union.json'.
+
+5. Remove processed files:
     
-    `mv quotes-{YEAR}-filtered.json data` 
+    `rm quotes-{YEAR}-filtered.json` 
     
-    `mv quotes-{YEAR}-wikimerged.json data`
-    
-5. Merge all json files for all years from 2008 to 2020, received 'union.json'.
+    `rm quotes-{YEAR}-wikimerged.json`
 
 6. Creat vocabularies for countries and occupations for processed quatations:
     
