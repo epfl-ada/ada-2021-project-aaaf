@@ -64,11 +64,11 @@ We should notice the data we have is very large, that is why we are going to use
     
     `mv quotes-{YEAR}-wikimerged.json data`
     
-5. Merge all json files for all years from 2008 to 2020, received 'data/union.json'.
+5. Merge all json files for all years from 2008 to 2020, received 'union.json'.
 
 6. Creat vocabularies for countries and occupations for processed quatations:
     
-    `python scripts/utils.py --file=data/union.json`
+    `python scripts/mapping.py --file=union.json`
     
 ##### Exploratory Analysis
 We are going to start with simple graphical and statistical exploration of data.
