@@ -5,7 +5,31 @@ from tqdm import tqdm
 
 
 KEYS_TO_DROP = ["quoteID", "urls", "phase", "probas"]
-TOPIC = 'climate change'
+TOPICS = [
+    "brexit",
+    "drugs",
+    "sexism",
+    "immigration",
+    "islam",
+    "ebola",
+    "pandemy",
+    "terrorism",
+    "home violence",
+    "meat consumption",
+    "vegetarian",
+    "feminism",
+    "harassment",
+    "darknet",
+    "fraud",
+    "privacy",
+    "climate change",
+    "global warming",
+    "carbon emission",
+    "mental disease",
+    "mental health",
+    "burn out",
+    "burnout",
+]
 
 
 def iterate(file_name):
@@ -35,7 +59,7 @@ def fetch(lines):
         map(json.loads, lines),
     )
     lines = map(drop_keys, lines)
-    lines = filter(lambda x: TOPIC in x['quotation'].lower(), lines)
+    lines = filter(lambda x: any(top in x['quotation'].lower() for top in TOPICS), lines)
     return lines
 
 
