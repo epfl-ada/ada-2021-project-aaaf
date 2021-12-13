@@ -1,3 +1,3 @@
 ### MAP
 
-{% include map.html %}
+{% include test.html %}
