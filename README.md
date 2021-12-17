@@ -7,7 +7,10 @@
     Arsenii Gavrilenko - Hypothesis generation, Report and github pages, Data handling
     Aleksandr Samoilenko - Hypothesis generation, Maps vizualizaton, Wikidata handling
     Anastasiia Filippova - Hypothesis generation, Web-scrapping, Data exploration
-    
+
+### Data story link
+https://epfl-ada.github.io/ada-2021-project-aaaf/
+
 ### Executive summary of work
 Initial idea of trend detection result in in-depth analysis of USA Senat members activity.
 
