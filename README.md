@@ -2,10 +2,11 @@
     Arsenii Gavrilenko
     Aleksandr Samoilenko
     Anastasiia Filippova
+
 ## 17.12.2021  Milestone 3 report 
-    Arsenii Gavrilenko - `report and github pages`, `hypothesis generation`, `data handling`
-    Aleksandr Samoilenko - `maps vizualizaton`, `hypothesis generation`, `data handling`
-    Anastasiia Filippova - `initial data processing`, `web-scrapping`
+    Arsenii Gavrilenko - Hypothesis generation, Report and github pages, Data handling
+    Aleksandr Samoilenko - Hypothesis generation, Maps vizualizaton, Wikidata handling
+    Anastasiia Filippova - Hypothesis generation, Web-scrapping, Data exploration
     
 ### Executive summary of work
 After passing the 2nd milestone we decided to be more data-driven. We structured our approach and finally got some good piece of insights. 
@@ -34,13 +35,6 @@ The second part is more deep one. Here we are going to do the core analysis for 
 
 
 #### Proposed additional datasets:
-Google Trends API 
-
- `https://pypi.org/project/pytrends/`
- 
->Google trends is a website that analyzes and lists the popular search results on Google search based on various regions and languages. Google Trends is Google’s website (obviously). There is a Python API called pytrends.
-We would use this API later to collect the data about our speakers.
-
 WikiData API 
 
 `https://www.wikidata.org/wiki/Wikidata:Main_Page`
@@ -86,29 +80,25 @@ In this part we are going to use basic data analysis tools to get in touch with 
 1. For some first and last names, presented in quotes dataset, there are several wikipedia pages, so we have to extract features of the person we are interested in.
 2. We also added an analysis of the quotes distribuiton during the year. 
 3. Analysis about different occupations
-    
-##### Correlation analysis
-
 
 
 #### Proposed timeline & internal milestones
 12 Nov 2021: Milestone P2
 
 19 Nov 2021:
-> Adding other topics to the trend research and performing basic analysis. First draft of hypothesis about the data.
-
+> In-depth exploration of data: biases in countries, topics, speakers' occupations
 
 26 Nov 2021:
-> Correlation analysis MVP - using GoogleTrend API.
+> US senators data scrapping, formulation and testing of hypotheses
 
 3 Dec 2021: 
 >Building frontend to better present our data story.
-Correlation analysis id done.
+Exploration of tools for maps visualization: Plotly / Folium.
 
 10 Dec 2021:
 > Frontend is built
 All required analyses are done and well-packaged.
 
 17 Dec 2021 Milestone P3
-> Preparing slides and frontend for the final presentations.
+> Making final remarks.
 
