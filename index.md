@@ -102,7 +102,7 @@ We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bi
 ## Weapons
 
 {% include main_analysis/quotes_number_distrib_by_states_weapons.html %}
-Firearms or a weapon is a very popular topic in USA. On one hand having a weapon is one of the American citizens rights but on the other hand there are a lot of famous conflicts about it. Schoolshooting is a big issue at USA. For example there is a famous and terrible event - shooting at Sandy Hook Elementary School [link] (https://en.wikipedia.org/wiki/Sandy_Hook_Elementary_School_shooting). If we check the ration of quotes about weapon in Connecticut state we can observe the drammatic change after the 2012. 
+Firearms or a weapon is a very popular topic in USA. On one hand having a weapon is one of the American citizens rights but on the other hand there are a lot of famous conflicts about it. Schoolshooting is a big issue at USA. For example there is a famous and terrible event - shooting at Sandy Hook Elementary School [link] (https://en.wikipedia.org/wiki/Sandy_Hook_Elementary_School_shooting). If we check the ratio of quotes about weapon in Connecticut state we can observe the drammatic change after the 2012. This reflects a high correlation about senators talks and real events in the state.
 
 
 
