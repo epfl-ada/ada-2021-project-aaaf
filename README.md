@@ -2,7 +2,16 @@
     Arsenii Gavrilenko
     Aleksandr Samoilenko
     Anastasiia Filippova
-### 12.11.2021  Milestone 2 report
+## 17.12.2021  Milestone 3 report 
+    Arsenii Gavrilenko - `report and github pages`, `hypothesis generation`, `data handling`
+    Aleksandr Samoilenko - `maps vizualizaton`, `hypothesis generation`, `data handling`
+    Anastasiia Filippova - `initial data processing`, `web-scrapping`
+    
+### Executive summary of work
+After passing the 2nd milestone we decided to be more data-driven. We structured our approach and finally got some good piece of insights. 
+We decided to move 
+
+## 12.11.2021  Milestone 2 report
 #### Abstract
 In the 21 century Internet and Social Networks brought the speed and depth of trend spreading to the new level. Classical media like newspappers now could use Twitter as a resource of information. Based on this trend and data we have we decided to focus on trend spreading over the people. We are going to try to extract from the data some correlations and dependencies in the filed of trend spreading. In fact we have to goals, the first one is to analyze how fast and wide some trends could be. The second goal is to identifing of some biases we could have in the data.
 For example some resources or occupations(profesional) could be biased on the some topic. Talking about our data - the frequency of some topic could be much higher or lower that the average.
