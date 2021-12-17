@@ -99,6 +99,8 @@ Justice topic is especially interesting since all states are more active in this
 We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bill', 'bills', 'taxes', 'fee', 'fees'}`
 
 {% include main_analysis/quotes_number_distrib_by_states_taxes.html %}
+
+Taxes is a very debatable topic for each USA state. It could be observed in a positive or negative way. For example, in 2018 Iowa introduced a new tax reform [link](https://tax.iowa.gov/iowa-tax-reform). It could be observed clearly, that it is a very hot topic in IOWA after 2018.
 ## Weapons
 
 {% include main_analysis/quotes_number_distrib_by_states_weapons.html %}
