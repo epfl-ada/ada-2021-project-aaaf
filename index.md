@@ -88,9 +88,7 @@ The next step in our analysis is to understand states activity. As an initial st
 We should highlight that each year the distribution of most active states are different. It is very interesting to see that there are now dominant and tale states.
 As a next steps we are going to check in details several interesting topics. Our goal is to check how the actual event are reflected in the quotation activity. To get the actual "activity" for each topic we would use scaled frequency. It means we are going to devide number of quotes on the topic to the overall number of quotes from the state.
 
-## Education
-We use set of topics to find senators quotes about education: `{'education', 'schools', 'school', 'student', 'teacher', 'teachers','university', 'universities', 'learning', 'study', 'studing'}`
-{% include main_analysis/quotes_number_distrib_by_states_education.html %}
+
 ## Justice
 We use set of topics to find senators quotes about justice: `{'justice', 'freedom', 'rights', 'equal', 'equally', 'fairly'}`
 {% include main_analysis/quotes_number_distrib_by_states_justice.html %}
@@ -101,12 +99,16 @@ We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bi
 {% include main_analysis/quotes_number_distrib_by_states_taxes.html %}
 
 Taxes is a very debatable topic for each USA state. It could be observed in a positive or negative way. For example, in 2018 Iowa introduced a new tax reform [link](https://tax.iowa.gov/iowa-tax-reform). It could be observed clearly, that it is a very hot topic in IOWA after 2018.
+
+Another interesting example is Montana. This state has very high frequency of tex quotes. After research in the wev we came up with a fact, that Montana is a small Switzerland in the USA due to low transparency of the laws for other states. For each year from 2008 to 2020 it is a leader in tax discussions.
 ## Weapons
 
 {% include main_analysis/quotes_number_distrib_by_states_weapons.html %}
 Firearms or a weapon is a very popular topic in USA. On one hand having a weapon is one of the American citizens rights but on the other hand there are a lot of famous conflicts about it. Schoolshooting is a big issue at USA. For example there is a famous and terrible event - shooting at Sandy Hook Elementary School [link] (https://en.wikipedia.org/wiki/Sandy_Hook_Elementary_School_shooting). If we check the ratio of quotes about weapon in Connecticut state we can observe the drammatic change after the 2012. This reflects a high correlation about senators talks and real events in the state.
 
-
+## Education
+We use set of topics to find senators quotes about education: `{'education', 'schools', 'school', 'student', 'teacher', 'teachers','university', 'universities', 'learning', 'study', 'studing'}`
+{% include main_analysis/quotes_number_distrib_by_states_education.html %}
 
 
 
