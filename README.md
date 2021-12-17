@@ -9,8 +9,9 @@
     Anastasiia Filippova - Hypothesis generation, Web-scrapping, Data exploration
     
 ### Executive summary of work
-After passing the 2nd milestone we decided to be more data-driven. We structured our approach and finally got some good piece of insights. 
-We decided to move 
+Initial idea of trend detection result in in-depth analysis of USA Senat members activity.
+
+Having a huge 178M quotes dataset can be misleading, since the data is very sparse in the case of quotes. Handling such a big and sparse data requires very structured and step-by-step approach. Moreover, the text itself contains a lot of information, but not all of it is useful. Since getting and meaningful and deep insights requires a lot of data Exploring data brings out team to the conlcusion that in order.
 
 ## 12.11.2021  Milestone 2 report
 #### Abstract
