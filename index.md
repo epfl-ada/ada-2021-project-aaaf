@@ -43,14 +43,15 @@ Let's take a more detailed look on this data. On the current step we can already
 3. The second interesting example is `brexit` tag that literally does not exist before the 2016 and afer shows a disruptive growth to one of the most popular.
 
 ### Data Enrichment
-Previously we descibed the concept that each point in the dataset is a pair of the idea and the person who was quoted. Of course, there are a lot of the quotes without any sense, but in this case we could treat them as "idea-empty" phrases. In order to get more insights about the data we merged on of the data subsets ('climate-change') with a **WikiData API**. As a result we obtain personal data for the persons linked with the quote. In some cases several persons are associated with the quote, in such cases we use majority vote if possible or randomly in equivalent cases. 
+Previously we descibed the concept that each point in the dataset is a pair of the idea and the person who was quoted. Of course, there are many quotes without any sense, but in this case, we could treat them as “idea-empty” phrases. We merged one of the data subsets (‘climate-change) with a **WikiData API** to get more insights into the data. As a result, we obtain personal data for the persons linked with the quote. In some cases, several persons are associated with the quote. We use a majority vote if possible or randomly in equivalent cases in such cases.
 ### Identifying biases
-As we know, the dataset was collected by parsing the data the news articles in English. It meanse that our dataset could be presentative only for the English-speakers part of the world. Our hypothesis is that big part of the content would be produced by USA and UK. In order to check thi bias we plot the quotes distribution by countries for `climate change` for 2008.
+As we know, the dataset was collected by parsing the data of the news articles in English. Therefore, our dataset could be presentative only for the English-speakers part of the world. We hypothesize that USA and UK would produce a big part of the content. To check the bias, we plot the quotes distribution by countries for `climate change` for 2008.
 
 {% include initial_analysis/countries_distribution_climate_change_2008.html %}
 
 
-As we can see, USA dominates in the dataset. Since the `climate change' is a very popular topic and we have also checked the distribution for other years we could be sure that **USA is presented the best in the dataset**
+As we can see, the USA dominates in the dataset. Since climate change is a prevalent topic and we have also checked the distribution for other years, we could be sure that the **USA is presented the best in the dataset.**
+Moving further, we decided to check the geographical data more precisely. We plotted the distribution of the States where people work or if their workplace is empty on WikiData. We used place of birth. Inside-US geographical distribution is concentrated in District of Columbia - where Washington is located.
 
 Moving further we decided to check the geographical data more precisely. We ploted the distribution of the States where people work or in case their work place in empty on WikiData we used place of birth. Inside-US geogaphical distribution is concentrated in Distric of Columbia - there Washington is located.
 
@@ -60,10 +61,10 @@ Moving further we decided to check the geographical data more precisely. We plot
 Washington is a heart of American democracy - there all senators and other politicians are doing their job. 
 
 ## Project Idea
-Honestly speaking, the final idea of our project was born in the working process. Meeting different insights and constraints of the data, USA and especially Washington was evaluated as a place with high concentration of quotes. As we all know it's a city with a highest density of politicians. 
+The final idea of our project was born in the working process. Meeting different insights and constraints of the data, the USA and mainly Washington was evaluated as a place with a high concentration of quotes. As we all know, it's a city with the highest density of politicians.
 
-Politics is an essential part of many USA citizens and even not-USA people. That is why we have a lot of data from Washington and USA. In our analysis we would take into account USA Senat members from 2008 to 2020. Senat members are always eleceted from their native state and we expect them to talk about the native state problems and challenges. We collected data for around 200 senators here:
-`[Link](https://docs.google.com/spreadsheets/d/1Viwlaz--L4lrQ-uO6yTGSvXYHHxTXi4JFCW6ar2_j10/edit?usp=sharing)`
+Politics is an essential part of many USA citizens and even not-USA people. That is why we have a lot of data from Washington and the USA. In our analysis, we would consider USA Senat members from 2008 to 2020. Senat members are always elected from their native state, and we expect them to talk about the native state's problems and challenges. We collected data for around 200 senators here: [Link](https://docs.google.com/spreadsheets/d/1Viwlaz--L4lrQ-uO6yTGSvXYHHxTXi4JFCW6ar2_j10/edit?usp=sharing)
+Based on the insights about the data and several assumptions, we decided to move forward with research in this area. We will evaluate different parties, states, and senators' activity more precisely. Also, we are going to check how different states discuss several topics. This analysis would allow us to understand the activity and biases of different state representatives.
  
 Based on the insights about the data and several assumptions we decided to move forward with a research in this area. More precisely we are going to evaluate different parties, states and senators activity. Also we are going to check how several topics are discussed by different states. This analysis would allow us to understand the activiy and biases of different state representative.  
 
@@ -93,8 +94,7 @@ We use set of topics to find senators quotes about education: `{'education', 'sc
 ## Justice
 We use set of topics to find senators quotes about justice: `{'justice', 'freedom', 'rights', 'equal', 'equally', 'fairly'}`
 {% include main_analysis/quotes_number_distrib_by_states_justice.html %}
-Justice topic is especially interesting since all states are more active in this topic near the elections. We could see from the map that 2008, 2012 and 2020 are more colored than other years. It could be interesting to check.
-во время выборов (2008 2012 2020) в justice карта темнее . Во время выборов политики больше говорят про данную тему, чем в другие года
+Justice topic is especially interesting since all states are more active in this topic near the elections. We could see from the map that 2008, 2012 and 2020 are more colored than other years. It could be interesting that senators use this topic to increase election chances.
 ## Taxes
 We use set of topics to find senators quotes about taxes: `{'charge', 'tax', 'bill', 'bills', 'taxes', 'fee', 'fees'}`
 
