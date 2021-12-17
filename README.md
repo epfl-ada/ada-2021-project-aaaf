@@ -14,7 +14,11 @@ https://epfl-ada.github.io/ada-2021-project-aaaf/
 ### Executive summary of work
 Initial idea of trend detection result in in-depth analysis of USA Senat members activity.
 
-Having a huge 178M quotes dataset can be misleading, since the data is very sparse in the case of quotes. Handling such a big and sparse data requires very structured and step-by-step approach. Moreover, the text itself contains a lot of information, but not all of it is useful. Since getting and meaningful and deep insights requires a lot of data Exploring data brings out team to the conlcusion that in order.
+Having a huge 178M quotes dataset can be misleading, since the data is very sparse in the case of quotes. Handling such a big and sparse data requires very structured and step-by-step approach. Moreover, the text itself contains a lot of information, but not all of it is useful. That is why it is essential to do many assumptions and reduce the size of the sample to avoid sparse pieces of data.
+
+Starting from preliminary analysis with tracking some popular tags in the corpus several issues with data was found. There is a high frequency of USA speakers since the data was obtained by parsing English news. Moreover, USA speakers are conentrated in Washington, that leads to the hypothesis of high level of politicians in the dataset. Generally speaking, news are oftern based on the poilitical speech. The interesting feature of American election system is that many politiciansn are strongly connected with their native state, especially senators, who are elected by the state. Having a list of all senators from 2008 several insights about different state and parties activities was found.
+
+Finally the popularity of several important and popular topics as justice, taxes, education, weapon were evaluated trought the time for different states.
 
 ## 12.11.2021  Milestone 2 report
 #### Abstract
