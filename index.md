@@ -7,23 +7,23 @@ Initial idea of trend detection result in in-depth analysis of USA Senat members
 
 Having a huge 178M quotes dataset can be misleading, since the data is very sparse in the case of quotes. Handling such a big and sparse data requires very structured and step-by-step approach. Moreover, the text itself contains a lot of information, but not all of it is useful. That is why it is essential to do many assumptions and reduce the size of the sample to avoid sparse pieces of data. 
 
-Starting from preliminary analysis with tracking some popular tags in the corpus several issues with data was found. There is a high frequency of USA speakers since the data was obtained by parsing English news. Moreover, USA speakers are conentrated in Washington, that leads to the hypothesis of high level of politicians in the dataset. Generally speaking, news are oftern based on the poilitical speech. The interesting feature of American election system is that many of ploticians are strongly connected with their native state, especially senators, who are elected by the state. Having a list of all senators from 2008 several insights about different state and parties activities was found.
+Starting from preliminary analysis with tracking some popular tags in the corpus several issues with data was found. There is a high frequency of USA speakers since the data was obtained by parsing English news. Moreover, USA speakers are conentrated in Washington, that leads to the hypothesis of high level of politicians in the dataset. Generally speaking, news are oftern based on the poilitical speech. The interesting feature of American election system is that many politiciansn are strongly connected with their native state, especially senators, who are elected by the state. Having a list of all senators from 2008 several insights about different state and parties activities was found.
 
 Finally the popularity of several important and popular topics as `justice, taxes, education, weapon` were evaluated trought the time for different states.
 
 ## Introduction
-Working with a text data could be very insightfull since the text data includes people ideas and thoughts. Unlike pictures and tabular data, text gives an opportunity to understand what is in people minds. The following project and ideas are based on the quotes dataset - Quotebank: A Corpus of Quotations from a Decade of News. This is a corpus of 178M quotations. The content was  extracted from 162 million English news articles published between 2008 and 2020. 
+Working with text data could be very insightful since the text data includes people's ideas and thoughts. Unlike pictures and tabular data, the text allows understanding what is in people's minds. The following project and ideas are based on the quotes dataset - Quotebank: A Corpus of Quotations from a Decade of News. This dataset is a corpus of 178M quotations. The content was extracted from 162 million English news articles published between 2008 and 2020.
+
 
 ## Data overview
 
-Since it is a news articles, especially in English it would be some features we should take into account. First of all, we decided to identify "sparsity" of the data. 
+Since it is a news article, especially in English it would be some features we should take into account. First of all, we decided to identify the “sparsity” of the data.
 
 ### AAAF Tips & Tricks
-The idea is to somehow drop the tale of the data. Tale is a set of quotes which would be difficult to use to get any insights. In order to clean the data, we assume that each quote is a intersection of idea and a speaker. Then we would like to get rid of "tale" people or "tale" ideas - the set of people and topics with a low number of data points. The goal of this step is to reduce the data sample and to clean the data out of noize.
+The idea is to drop the tale of the data somehow. Tale is a set of quotes that would be difficult to use to get any insights. To clean the data, we assume that each quote is an intersection of an idea and a speaker. Then we would like to eliminate “tale” people or “tale” ideas - the set of people and topics with a low number of data points. This step aims to reduce the data sample and clean the data out of noize.
 
 ### Preliminary data analysis 
-Initially our idea was to identify trends in social media, that is why we chose N topics and then filter the quotes with the tags. 
-Tags was choosen randomly:
+Initially, our idea was to identify trends in social media; that is why we chose N topics and then filtered the quotes with the tags.We choose the most widespread topics:
 
 `"brexit","drugs","sexism","immigration","islam","ebola","pandemy","terrorism","home violence","meat consumption","vegetarian","feminism","harassment","darknet", "fraud","privacy","climate change","global warming","carbon emission","mental disease", "mental health","burn out",
 "burnout"`.
